@@ -1,0 +1,77 @@
+body {
+    background-color: burlywood;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.book {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.page {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    background: #faebd7;
+    border-right: 2px solid #d3a46b;
+}
+
+.right {
+    background: #fdf5e6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #8b4513;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content:space-around;
+    button-color:red;
+}
+
+.menu-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4d2600;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
